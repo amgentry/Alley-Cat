@@ -1,0 +1,219 @@
+* {
+    margin: 0;
+}
+
+@font-face { font-family: freshmarker; src: url('http://www.freshmarker.ttf') format("truetype");
+}
+
+.background h1 {
+    font-family: freshmarker;
+}
+
+html, body {
+    height: 100%;
+    font-family: sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin-bottom: 16px;
+}
+
+.background{
+    /*margin: auto;*/
+    height: 100%;
+    width: 100%;
+    background-image: url("images/background1.jpg");
+    background-repeat: no-repeat;
+    /*background-attachment: fixed;*/
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.background .imagelogo{
+    height: 400px;
+    width: 400px;
+    float: left;
+}
+
+.background .text{
+    /*margin-right: 50px;*/
+    padding-top: 60px;
+    width: 712px;
+    height: 264px;
+}
+
+.background a{
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.background a:link {
+    color: red;
+}
+
+.background a:visited {
+    color: mediumpurple;
+}
+
+.background a:hover {
+    color: #6e6e6e;
+
+}
+
+
+nav {
+    min-height: 10%;
+    background-color: white;
+    display: flex;
+    position: fixed;
+    /*margin: auto;*/
+    width: 100%;
+}
+
+.navList{
+    position: absolute;
+    right:0;
+}
+
+.link-holder {
+    position: relative;
+    display: inline-block;
+    /*margin-top: 30px;*/
+    margin: auto;
+    /*background-color: aqua;*/
+    /*width: 30%;*/
+
+}
+
+.link-holder button {
+    /*width: 30%;*/
+    /*margin-top: 30px;*/
+    background-color: #ffffff;
+    padding: 16px;
+    color: mediumpurple;
+    /*font-size: 14px;*/
+    border: none;
+    font-size: 15px;
+
+}
+
+.link-holder:hover button {
+    background-color: #ffffff;
+}
+
+.link-holder:hover .links {
+    display: block;
+}
+
+.links {
+    display: none;
+    min-width: 150px;
+    position: absolute;
+    background-color: #ffffff;
+    font-size: 15px;
+
+    /*box-shadow: 0px 8px 16px 0px rgba(0,0,0,.2);*/
+}
+
+.links a {
+    display: block;
+    padding: 12px 16px;
+    color: mediumpurple;
+    text-decoration: none;
+}
+
+.links a:hover {
+    color: #6e6e6e;
+}
+
+.productsWrapper{
+    /*margin: auto;*/
+    padding-top: 12%;
+    text-align: center;
+    width: 100%;
+    /*background-color: aqua;*/
+}
+
+.pageTitles{
+    text-align: center;
+}
+
+.products{
+    padding-left: 11%;
+    margin: auto;
+    /*display: flex;*/
+    /*position: absolute;*/
+    background-color: #24b12b;
+    /*width: 95%;*/
+    height: 100%;
+}
+
+.item{
+    line-height: 8px;
+    font-size: 15px;
+    margin: auto;
+    /*background-color: thistle;*/
+    float: left;
+    display: inline;
+    padding: 40px;
+
+}
+.item img{
+    width: 200px;
+    height: 200px;
+    padding-bottom: 10px;
+}
+
+.item p{
+    color: #6e6e6e;
+}
+.item p:nth-child(5){
+    color: black;
+}
+
+.shoppingCarts{
+    padding-top: 12%;
+}
+
+.item p{
+    box-sizing: border-box;
+    /*float: right;*/
+}
+#items{
+    box-sizing: border-box;
+    float: right;
+}
+
+#itemss{
+    box-sizing: border-box;
+    float: right;
+}
+
+.itemsincart{
+    float: left;
+    width: 80%;
+
+}
+
+.itemsincart p{
+    font-size: 30px;
+}
+
+.checkout{
+    display: flex;
+    min-height: 100%;
+    background-color: white;
+}
+
+.checkoutbutton h1{
+    outline: black solid;
+    /*background-color: #24b12b;*/
+    color: mediumpurple;
+    margin-bottom: 20px;
+    padding: 20px;
+
+}
+
+
+
